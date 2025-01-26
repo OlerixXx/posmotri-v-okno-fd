@@ -232,14 +232,11 @@ ol {
 }
 
 .content__list {
+  min-width: 394px;
+  min-height: 298px;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 30px;
-}
-
-.content__list:empty {
-  min-width: 394px;
-  min-height: 298px;
 }
 
 .content__card-link {
