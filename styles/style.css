@@ -131,9 +131,8 @@ ol {
 
 .search-form__pseudo-checkbox {
   display: flex;
-  position: relative;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   align-self: center;
   width: 18px;
   height: 18px;
@@ -146,12 +145,10 @@ ol {
   margin-right: 15px;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  content: '';
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  background-color: white;
+.search-form__checkbox:checked + .search-form__pseudo-checkbox {
+  background-image: url(../images/CheckboxChecked.svg);
+  background-position: center;
+  background-size: 15px 15px;
 }
 
 .search-form__checkbox:focus {
