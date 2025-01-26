@@ -64,9 +64,9 @@ ol {
 
 .result__video-container {
   position: relative;
+  margin-block-end: 16px;
   inline-size: 711px;
   block-size: 386px;
-  margin-block-end: 16px;
 }
 
 .result__video {
@@ -135,11 +135,11 @@ ol {
   justify-content: center;
   align-items: center;
   align-self: center;
-  inline-size: 19px;
-  block-size: 19px;
   margin-right: 5px;
   border: 1px solid white;
   background-color: transparent;
+  inline-size: 19px;
+  block-size: 19px;
 }
 
 .search-form__checkbox-list .search-form__label:not(:last-of-type) {
@@ -237,6 +237,11 @@ ol {
   row-gap: 30px;
 }
 
+.content__list:empty {
+  min-width: 394px;
+  min-height: 298px;
+}
+
 .content__card-link {
   color: white;
   text-decoration-line: none;
@@ -281,15 +286,15 @@ ol {
 
 .content__video-card-description {
   display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  line-clamp: 4;
   overflow: hidden;
   font-family: inherit;
   font-weight: inherit;
   font-size: 17px;
   line-height: 1.15em;
   letter-spacing: 0.03em;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
 }
 
 .content__video-card-thumbnail {
